@@ -32,6 +32,15 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
+@keyframes toast-progress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
 @keyframes avatar-pulse {
   0%,
   100% {
